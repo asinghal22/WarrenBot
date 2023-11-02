@@ -21,7 +21,7 @@
 
 	if(isset($_GET["Ask"])) {
 	  $question = $_GET["Question"];
-	  echo "But the real question is $Ask $question";
+	  echo "But the real question is $question";
 	}
    ?>
   <p>
