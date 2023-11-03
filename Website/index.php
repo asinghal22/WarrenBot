@@ -21,7 +21,10 @@
 
 	if(isset($_GET["Ask"])) {
 	  $question = $_GET["Question"];
-	  echo "But the real question is $question";
+	  echo "The question asked is  $question";
+          $url      = "http://127.0.0.1:5000/warren_speaks/".$question;
+	  $response = file_get_contents($url);
+          echo "The God has spoken and SHE says $response";
 	}
    ?>
   <p>

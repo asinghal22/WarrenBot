@@ -13,7 +13,7 @@ from flask_restful import Resource, Api
 from flask import Flask,request
 from flask_cors import CORS, cross_origin
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 system_prompt_template = """Use the following pieces of context to answer the users question.
                      If you don't know the answer, just say that you don't know, don't try to make up an answer.
